@@ -1,0 +1,66 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  background-color: #201d1d;
+  margin: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.active {
+  background-color: red;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.cast {
+  width: 100px;
+}
+
+.space {
+  width: 405px;
+}
+
+.tab {
+  width: 60px;
+}
+
+.backspace {
+  width: 130px;
+}
+
+.enter {
+  width: 150px;
+}
+
+.shift {
+  width: 125px;
+}
+/*# sourceMappingURL=style.css.map */
